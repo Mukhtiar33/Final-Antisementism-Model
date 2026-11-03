@@ -1,0 +1,59 @@
+============================================================
+  EVALUATION REPORT - YouTube Sentiment Analysis
+============================================================
+
+  Dataset Overview
+  Total comments : 615
+  Videos         : 9
+  Train / Test   : 492 / 123
+
+  Label Distribution
+  negative  : 252 (41.0%)
+  neutral   : 174 (28.3%)
+  positive  : 189 (30.7%)
+
+  ==================================================
+  Model: Logistic Regression
+  ==================================================
+  Accuracy          : 0.3740
+  Precision (macro) : 0.4021
+  Recall (macro)    : 0.3840
+  F1 (macro)        : 0.3745
+  CV F1             : 0.4255 +/- 0.0796
+
+  Per-class Report:
+              precision    recall  f1-score   support
+
+    negative       0.56      0.30      0.39        50
+     neutral       0.30      0.46      0.36        35
+    positive       0.35      0.39      0.37        38
+
+    accuracy                           0.37       123
+   macro avg       0.40      0.38      0.37       123
+weighted avg       0.42      0.37      0.38       123
+
+
+  ==================================================
+  Model: Linear SVM
+  ==================================================
+  Accuracy          : 0.4309
+  Precision (macro) : 0.4474
+  Recall (macro)    : 0.4342
+  F1 (macro)        : 0.4290
+  CV F1             : 0.4672 +/- 0.0427
+
+  Per-class Report:
+              precision    recall  f1-score   support
+
+    negative       0.62      0.42      0.50        50
+     neutral       0.35      0.51      0.41        35
+    positive       0.38      0.37      0.37        38
+
+    accuracy                           0.43       123
+   macro avg       0.45      0.43      0.43       123
+weighted avg       0.47      0.43      0.44       123
+
+============================================================
+  BEST MODEL: Linear SVM
+  Final F1 (macro): 0.4290
+============================================================
