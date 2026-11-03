@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pyenv
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.ipynb_checkpoints
+
+# Data / models (large artifacts - not committed)
+*.csv
+*.xlsx
+*.xls
+*.pkl
+*.pickle
+*.h5
+*.npz
+*.npy
+*.joblib
+outputs/
+trained_model.pkl
+vectorizer.pkl
+threshold.pkl
+final_clean_dataset.csv
+labeled_comments.csv
+clean_transcripts.csv
+
+# Video source data
+video*/
+video*/
+*.mp4
+*.avi
+*.mov
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
